@@ -1,0 +1,153 @@
+/* Слайдер */
+.slider{
+  max-width: 1780px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.slider .slick-arrow{
+  position: absolute;
+  top: 135%;
+  z-index: 10;
+  font-size:0px;
+  width: 40px;
+  height: 60px;
+}
+
+.slider .slick-arrow.slick-prev{
+  left: 0;
+  background:url('../images/icons/left-arrow.png') 0 0 no-repeat;
+  border: none;
+  left: 2.188rem;
+}
+
+.slider .slick-arrow.slick-next{
+  right: 0;
+  background:url('../images/icons/right-arrow.png') 0 0 no-repeat; 
+  border: none;
+  right: 2.188rem;
+}
+
+.slider .slider__item{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 645px;
+  text-align: center;
+  
+}
+
+
+
+.slick-list {
+  overflow: hidden;
+  
+}
+
+.slick-track{
+  display: flex;
+  
+}
+
+.slider .slider__item span:first-child{
+  margin-top: 3.75rem;
+  font-size: 2.5rem;
+  color: #ffffff;
+  font-weight: bold;
+  margin-bottom: 1.563rem;
+}
+
+.slider .slider__item span{
+  color: #ffffff;
+  font-size: 2.188rem;
+}
+
+
+/*Second slider*/
+
+.slider-car{
+  /* max-width: 150px; */
+  text-align: center;
+  
+}
+.slider-car  .slick-track{
+  /* display: flex; */
+  flex-direction: column;
+  justify-content: center;
+  
+  
+} 
+
+.slider-car .slick-prev{
+  font-size: 0;
+  background:url(../images/icons/arrow-up.png) 0 0 no-repeat;
+  width: 30px;
+  height: 30px;
+  
+  border: none;
+}
+
+.slider-car .slick-next{
+  font-size: 0;
+  background:url(../images/icons/arrow-down.png) 0 0 no-repeat;
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+  border: none;
+}
+
+.slider-car .slick-list{
+  overflow: hidden;
+}
+
+.slider-car .slick-slide{
+  margin-bottom: 15px;
+}
+
+/*Third slider*/
+.slider-colour .slick-dots{
+  display: flex;
+}
+
+.slider-colour .slick-dots li{
+  list-style: none;
+  margin: 0 5px;
+}
+
+.slider-colour .slick-dots button{
+  font-size: 0;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: none;
+}
+
+.slider-colour .slick-slide{
+  overflow: hidden;
+  margin-left: -30px;
+}
+
+#slick-slide-control20{
+  background-color: red;
+}
+
+#slick-slide-control21{
+  background-color: #bfbfbf;
+}
+
+#slick-slide-control23{
+background-color: #696969;
+}
+
+#slick-slide-control24{
+  background-color: #75b5ce;
+}
+
+.slider-colour .slick-active button{
+  border: solid 2px #000000;
+  outline: solid 2px #ffffff;
+}
+
+
+
+
